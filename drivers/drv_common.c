@@ -159,6 +159,5 @@ RT_WEAK void rt_hw_board_init()
 #ifdef RT_USING_COMPONENTS_INIT
     rt_components_board_init();
 #endif
-    BoardInitMcu();
 
 }

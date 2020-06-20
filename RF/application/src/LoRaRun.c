@@ -583,6 +583,7 @@ void LoRaRun( void *parameter)
 static rt_thread_t tid1 = RT_NULL;
 void LoRaTaskInit(void)
 {
+    BoardInitMcu();
     tid1 = rt_thread_create("LoRaTask",LoRaRun, RT_NULL,1024,10, 20);
     if (tid1 != RT_NULL)
     rt_thread_startup(tid1);
