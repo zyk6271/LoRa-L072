@@ -13,3 +13,5 @@ LoRaWAN-STM32L072-RT-Thread工程是基于RT-Thread封装的LoRaWAN工程，可�
    - LoRa Transceiver (SPI)
       - SX126X
         - [x] ASR6500S ( SX1262 )
+# 2 使用方法
+采用RT-Thread Studio直接导入工程即可，暂未配置Finsh，由Main函数直接启动线程。
