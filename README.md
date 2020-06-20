@@ -1,6 +1,6 @@
 # LoRaWAN-STM32L072-RT-Thread
 # 1 简介
-LoRaWAN-STM32L072-RT-Thread工程是基于RT-Thread封装的LoRaWAN工程，可用于快速搭建基于LoRa等通信的应用产品。<br />LoRa-Radio-Driver软件包在LoRaWAN开源协议栈[LoRaMAC-Node中的radio]()基础上，进一步封装实现。
+LoRaWAN-STM32L072-RT-Thread工程是基于RT-Thread封装的LoRaWAN工程，可用于快速搭建基于LoRa等通信的应用产品。<br />软件包在LoRaWAN开源协议栈[LoRaMAC-Node中的radio]()基础上，进一步封装实现。
 > LoRaMac\Radio
 > [https://github.com/Lora-net/LoRaMac-node/tree/master/src/radio](https://github.com/Lora-net/LoRaMac-node/tree/master/src/radio)
 
